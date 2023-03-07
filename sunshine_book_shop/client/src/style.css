@@ -1,0 +1,99 @@
+.App{
+  height: 100vh;
+  padding: 0 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  }
+.books{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.book{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(113, 113, 113, 0.5); 
+}
+.book p{
+  font-size: 13px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.all_button{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: auto;
+}
+.all_button .update{
+  display: inline-block;
+  height: 25px;
+  width: 60px;
+  border: none;
+  background-color: rgb(8, 109, 36);
+  padding: 3px 6px;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+}
+.delete{
+  display: inline-block;
+  height: 25px;
+  width: 60px;
+  border: none;
+  background-color: rgb(179, 7, 7);
+  padding: 3px 6px;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+}
+.add_new{
+  padding: 15px;
+  background-color: rgb(11, 143, 143);
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(11, 143, 143);
+  height: 400px;
+  width: 380px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5); 
+}
+.form h2{
+  margin-top: 50px;
+  color: #ffffff;
+}
+.form input{
+  margin-left: 30px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: rgb(236, 255, 255);
+  outline: none;
+  gap: 10px;
+}
+.form .last_button{
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 320px;
+  cursor: pointer;
+}
